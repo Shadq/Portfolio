@@ -1,0 +1,31 @@
+.project__container {
+  height: 500px;
+  padding-left: 6.3rem;
+  padding-right: 6.3rem;
+  padding-top: 5rem;
+  margin-bottom: 500px;
+}
+
+.project__container h1 {
+  font-size: 40px;
+}
+
+.project__container span {
+  font-size: 20px;
+  color: #9ca3af;
+}
+
+.projects {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  gap: 40px;
+}
+
+.projects div {
+  display: flex;
+  background-color: #262626;
+  height: 20rem;
+  border-radius: 8px;
+  cursor: pointer;
+}

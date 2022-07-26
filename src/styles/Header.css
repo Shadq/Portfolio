@@ -1,0 +1,52 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+}
+
+.header__ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 3rem;
+  font-weight: 600;
+}
+
+.header__logo {
+  height: 55px;
+  border-radius: 50px;
+  transition: transform 0.2s;
+}
+
+.header__logo:hover {
+  transform: scale(1.1);
+}
+
+.header__ul li {
+  transition: 0.2s;
+}
+
+.header__ul li:hover {
+  color: #6258e6;
+  cursor: pointer;
+}
+
+.header__contact__btn {
+  border: none;
+  background-color: #4f45e4;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+.header__contact__btn:hover {
+  transform: scale(1.05);
+}
